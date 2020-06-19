@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>SONRISAS | Cuidamos tus dientes</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- css del swiper sliders  -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- venobox css para crear ventanas modales -->
+    <link rel="stylesheet" href="css/venobox.css">
+
+    <!-- jarallax css para efectos parallax -->
+    <link rel="stylesheet" href="css/jarallax.css">
+
+    <!-- Carga de los temas para pickadate -->
+    <!-- Carga del CSS de "Pickadate.js" -->
+    <link rel="stylesheet" href="js/pickadate.js/themes/default.css">
+    <!-- Carga del CSS de "Date Picker" -->
+    <link rel="stylesheet" href="js/pickadate.js/themes/default.date.css">
+    <!-- Carga del CSS de "Time Picker" -->
+    <link rel="stylesheet" href="js/pickadate.js/themes/default.time.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    
+  </head>
+  <body>
+    
+      <!-- Encabezado-Barra de contacto -->
+
+      <section id="barra-contacto" class="bg-primary text-white py-1 py-sm-1 py-lg-1 text-center">
+
+        <div class="container">
+          <div class="row justify-content-sm-between align-items-sm-center">
+            <div class="col-12 col-sm-auto">
+              <span><i class="fas fa-map-marker-alt mr-1"></i>Sucre-Chuquisaca, Bolivia</span>
+            </div>
+            <div class="col-12 col-sm-auto">
+              <!-- list-unstyle limpia los puntos en los li -->
+              <!-- d-inline-flex ase que se ponga en linea y ocupe el flex -->
+              <ul class="redes-sociales list-unstyled d-inline-flex mb-0">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Detalles encabeezado -->
+
+      <section id="detalle-encabezado" class="d-none d-md-block py-1">
+
+        <div class="container">
+          <!-- col-auto hace que la columna dependa del contenido -->
+          <!-- align-item-center alineamos las columnas de la fila -->
+          <div class="row justify-content-md-between align-items-md-center">
+            <div class="col-auto">
+              
+              <a href="#" class="text-decoration-none">
+                <img src="img/logaso.png" alt="logo del sitio" width="130" class="img-fluid">
+                <span class="h4 align-middle text-primary letra font-weight-bold">DEVOP</span>
+              </a>
+              
+            </div>
+
+            <!-- ml-auto ase que se peque al otro div xq fueron separados con un beetween -->
+            <div class="col-auto ml-md-auto">
+              <!-- firamos el icono con clase fa-flip-horizontal -->
+              <i class="fab fa-whatsapp fa-3x align-middle text-primary"></i>
+              <span class=" h5 ml-2">+591 67981983</span>
+            </div>
+            <div class="col-auto">
+              
+              <i class="fab fa-google-plus-g fa-3x  align-middle text-primary"></i>
+              <span class="h5 ml-2">orlando.alb77@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- Menu de Navegacion -->
+      <!-- navbar permite definir estilos paa el boton y los diferentes contenidos -->
+      <!-- navbar-expand-md desde ahi se expandiran los enlaces -->
+      <nav id="menu-nav" class="navbar navbar-dark bg-secondary navbar-expand-md">
+        
+        <div class="container">
+          <!-- a los hijps flexibles le podemos modificar el orden con la propiedad order -->
+          <!-- collapse trabaj con un elemento disparador(rango) y un destino (target) -->
+          <!-- navbar-toogle para aplicar estilos al boton -->
+          <!-- aria-expande  para ayudar a los usuarios que visualisan la pagina para saber si estan expandido o no -->
+          <!-- aria-label anuncia cuando el boton tenga un foco -->
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false" aria-label="Menu principal">
+            <!-- <i class="fas fa-bars "></i> -->
+            <span class="boton-menu"></span>
+          </button>
+
+          <a href="#" class="btn btn-primary order-md-1">Reservar una cita</a>
+
+          <!-- elemento de destino -->
+          <div class="collapse navbar-collapse" id="menu-principal">
+            <ul class="navbar-nav mt-3 mt-md-0">
+              <li class="nav-item mb-1 mb-md-0 mr-md-1"><a href="#barra-contacto" class="nav-link active">Inicio</a></li>
+              <li class="nav-item mb-1 mb-md-0 mr-md-1"><a href="#bienvenidos" class="nav-link">Nosotros</a></li>
+              <li class="nav-item mb-1 mb-md-0 mr-md-1"><a href="#premios" class="nav-link">Premios</a></li>
+              <li class="nav-item mb-1 mb-md-0 mr-md-1"><a href="#nuestra-app" class="nav-link">Nuestra App</a></li>
+              <li class="nav-item mb-1 mb-md-0 mr-md-0"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </nav>
+
+
+
+      <!-- seccion de animacion de slider de imagenes -->
+
+      <section id="animacion" class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url('img/fondo-slide-1.jpg')">
+          
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-9">
+                  <h2 class="display-4 font-weight-bold">Creamos sonrisas vibrantes que hablaran por ti</h2>
+                  <a href="#" class="btn btn-primary">Reservar una cita</a>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url('img/fondo-slide-2.jpg')"> 
+            
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-9">
+                  <h2 class="display-4 font-weight-bold">Reservar una cita ahora es muy facil</h2>
+                  <a href="#" class="btn btn-primary">Reservar una cita</a>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          <div class="swiper-slide d-flex justify-content-center align-items-center" style="background-image: url('img/fondo-slide-3.jpg')"> 
+          
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-9">
+                  <h2 class="display-4 font-weight-bold">¡Disponible 24/7 todas las semanas!</h2>
+                  <a href="#" class="btn btn-primary">Reservar una cita</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+
+
+      </section>
+
+
+      <!-- Creando la seccion de Bienvenidos  -->
+      <section id="bienvenidos" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 text-center">
+              <!-- posicionamos en el centro imagen con icono -->
+              <div class="contenedor-video d-inline-block position-relative text-truncate">
+                <img src="img/fondo-video.jpg" class="img-fluid" alt="imagen del video promocional del sitio">   
+                <a href="http://www.youtu.be/igG5qYpGu80" data-autoplay="true" class="position-absolute venobox-video" data-vbtype="video"><i class="fas fa-play"></i></a>
+              </div>
+              
+            </div>
+            <div class="col-12 pt-4 pt-lg-0 text-center text-lg-left col-lg-6">
+              <h2 class="display-4 font-weight-bold text-primary text-uppercase mt-lg-n2"><span class="text-secondary">Bienvenidos a tu</span> clinica sonrisas</h2>
+              <h6 class="text-black-50 text-uppercase">somos parte de ti</h6>
+              <p class="text-dark">Proporcionamos atención médica de la más alta calidad, tratamiento individualizado por los principales expertos del país y en el menor tiempo posible. Te invitamos a conocernos un poco más.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seccion de ayuda -->
+      <section id="te-ayudamos" class="bg-secondary text-white text-center py-5 jarallax" data-jarallax>
+
+        <picture class="jarallax-img">
+          
+
+          <!-- cuando sea xl hacemos que muestre una img mas grande -->
+          <source media="(min-width:1200px)" srcset="img/fondo-te-ayudamos-xl.jpg">
+          <!-- cuando sea md hacemos que muestre una img mas grande -->
+          <source media="(min-width:768px)" srcset="img/fondo-te-ayudamos-md.jpg">
+            <!-- primero insertamos img para pantalla pequeña -->
+          <img srcset="img/fondo-te-ayudamos.jpg" alt="fondo como podemos ayudarte" class="w-100">
+        </picture>
+
+
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-12">
+              <h2 class="font-weight-bold display-4">¿CÓMO PODEMOS AYUDARTE?</h2>
+              <p>Ofrecemos una amplia gama de procedimientos para ayudarlo a obtener la sonrisa perfecta</p>
+              <a href="#" class="btn btn-primary">Reservar una cita</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="premios" class="py-5 text-center">
+
+        <div class="container py-5">
+            <h2 class="display-4 font-weight-bold text-secondary">NUESTRA CLÍNICA EN NÚMEROS</h2>
+            <h6 class="text-black-50">TENEMOS ALGUNOS NÚMEROS QUE MOSTRARTE.</h6>
+
+            <div class="row">
+                <div class="col-6 col-md-3 py-4">
+                    <i class="fad fa-calendar-alt text-primary display-4 mb-2"></i>
+                    <div class="font-weight-bold text-secondary h2">
+                      <!-- ejecucion del script contador -->
+                        <span class="counter" data-counterup-beginat="0" data-counterup-time="500">12</span>
+                    </div>
+                    <h6>Años de experiencia</h6>
+                    <div class="contador-linea"></div>
+
+                </div>
+                <div class="col-6 col-md-3 py-4">
+                    <i class="fab  fa-angellist text-primary display-4 mb-2"></i>
+                    <div class="font-weight-bold text-secondary h2">
+                        <span class="counter" data-counterup-beginat="0" data-counterup-time="1500">156</span>
+                    </div>
+                    <h6>Clientes satisfechos</h6>
+                    <div class="contador-linea"></div>
+                </div>
+                <div class="col-6 col-md-3 py-4">
+                    <i class="fad fa-medal text-primary display-4 mb-2"></i>
+                    <div class="font-weight-bold text-secondary h2">
+                        <span class="counter" data-counterup-beginat="0" data-counterup-time="1300">120</span>
+                    </div>
+                    <h6>Premios obtenidos</h6>
+                    <div class="contador-linea"></div>
+                </div>
+                <div class="col-6 col-md-3 py-4">
+                    <i class="fad fa-thumbs-up text-primary display-4 mb-2"></i>
+                    <div class="font-weight-bold text-secondary h2">
+                        <span class="counter" data-counterup-beginat="0"
+                            data-counterup-time="1200">100</span><span>%</span>
+                    </div>
+                    <h6>Confianza</h6>
+                    <div class="contador-linea"></div>
+                    
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- Seccion de App -->
+      <section id="nuestra-app" class="bg-secondary py-5 text-center text-white text-md-left jarallax" data-jarallax>
+        
+        <picture class="jarallax-img">
+          
+
+          <!-- cuando sea xl hacemos que muestre una img mas grande -->
+          <source media="(min-width:1200px)" srcset="img/fondo-descargar-app-xl.jpg">
+          <!-- cuando sea md hacemos que muestre una img mas grande -->
+          <source media="(min-width:768px)" srcset="img/fondo-descargar-app-md.jpg">
+            <!-- primero insertamos img para pantalla pequeña -->
+          <img srcset="img/fondo-descargar-app.jpg" alt="fondo de descarga de app" class="w-100">
+        </picture>
+        
+        <div class="container">
+          <div class="row justify-content-md-end">
+            <div class="col-12 col-md-6">
+              <h2 class="h1 font-weight-bold">DESCARGA NUESTRA APP Y ACCEDE A DESCUENTOS EXCLUSIVOS!</h2>
+              <h6 class="text-white-50">SOMOS PARTE DE TI</h6>
+              <p>Hemos creado una aplicacion exclusiva para nuestros clientes. Desde donde podras acceder a sorteos y descuentos especiales</p>
+              <a href="#" class="btn btn-primary mt-2">Conocenos más</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!-- Seccion de Contacto -->
+      <section id="contacto">
+        <!-- etiqueta que encerrara un encabezado -->
+        <header class="text-center py-5 bg-primary text-white position-relative">
+          <h2 class="display-4 font-weight-bold">CONTÁCTANOS</h2>
+          <h6 class="text-white-50">ESTAMOS LISTOS PARA ATENDERTE</h6>
+          <div class="detalle-rectangulo"></div>
+        </header>
+
+        <div class="container">
+          <div class="row py-5">
+            
+            <!-- columna 1 -->
+            <div class="col-12 col-lg-6">
+              <h2 class="font-weight-bold text-center mb-2">Detalles de contacto</h2>
+
+              <ul class="list-unstyled">
+                <li class="d-flex py-3 border-bottom">
+                  <i class="fad fa-globe-americas fa-4x mr-3 fa-fw"></i> <!-- fa-fw alinea los iconos -->
+                  <div class="detalle mt-1">
+                    
+                    <h5 class="font-weight-bold text-secondary">Direccion</h5>
+                    <p class="mb-0">Sucre-Chuquisaca  Bolivia</p>
+                  </div>
+                  
+                </li>
+                
+                <li class="d-flex py-3 border-bottom">
+                  <i class="fab fa-whatsapp fa-4x mr-3 text-success fa-fw"></i>
+                  <div class="detalle mt-1">
+                    
+                    <h5 class="font-weight-bold text-secondary">Whatsapp</h5>
+                    <p class="mb-0">(+591) 67981983</p>
+                  </div>
+                  
+                </li>
+
+                <li class="d-flex py-3 border-bottom ">
+                  <i class="fad fa-envelope-square fa-4x mr-3 text-danger fa-fw"></i>
+                  <div class="detalle mt-1">
+                    
+                    <h5 class="font-weight-bold text-secondary">Email</h5>
+                    <p class="mb-0">orlando.alb77@gmail.com</p>
+                  </div>
+                  
+                </li>
+                <li class="d-flex py-3 border-bottom">
+                  <i class="fab fa-facebook fa-4x mr-3 fa-fw"></i>
+                  <div class="detalle mt-1">
+                    
+                    <h5 class="font-weight-bold text-secondary">Facebook</h5>
+                    <p class="mb-0">Alberth Paredes</p>
+                  </div>
+                  
+                </li>
+              </ul>
+
+            </div>
+
+
+
+
+
+
+            <!-- Columna 2 -->
+            <div class="col-12 col-lg-6 mt-4 mt-lg-0">
+                
+              <h2 class="font-weight-bold mb-2 text-center mb-5">Separa una cita</h2>
+              <!-- parsley validacion rapida data-parsley-validate-->
+              <form action="#" id="mi-formulario" >
+                <!-- data-parsley-required para todos los campos requeridos -->
+                <!-- parsley al validar inserta un ul y un li -->
+                <!-- data-parsley-Tipo de validacion-message="my message" lo usamos para cada campo -->
+                <!-- campo nombre -->
+                <div class="form-group form-row">
+                  <label for="nombre" class="col-12 col-form-label col-md-3">Nombre</label>
+                  <div class="col-12 col-md-9">
+                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingrese su nombre" 
+                    data-parsley-required
+                    data-parsley-required-message="Este campo no puede estar vacio">
+                  </div>
+                  
+                </div>
+                <!-- campo email -->
+                <div class="form-group form-row">
+                  <label for="email" class="col-12 col-form-label col-md-3">Email</label>
+                  <div class="col-12 col-md-9">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese su Email" 
+                    data-parsley-required data-parsley-type="email"
+                    data-parsley-required-message="Este campo no puede estar vacio"
+                    data-parsley-type-message="Ingrese el email en formato valido">
+                  </div>
+                  
+                </div>
+                <!-- campo celular -->
+                <div class="form-group form-row">
+                  <label for="celular" class="col-12 col-form-label col-md-3">Celular</label>
+                  <div class="col-12 col-md-9">
+                    <input type="text" class="form-control" name="celular" id="celular" placeholder="Ingrese su celular" 
+                    data-parsley-required data-parsley-length="[6,20]"
+                    data-parsley-required-message="Este campo no puede estar vacio"
+                    data-parsley-type-message="El numero de telefonico debe tener mas de 5 números">
+                  </div>
+                  
+                </div>
+                <!-- campo mensaje -->
+                <div class="form-group form-row">
+                  <label for="mensaje" class="col-12 col-form-label col-md-3">Mensaje</label>
+                  <div class="col-12 col-md-9">
+                    <textarea name="mesaje" id="mesaje" class="form-control" rows="5" placeholder="Ingrese su mensaje" 
+                    data-parsley-required 
+                    data-parsley-required-message="Este campo no puede estar vacio"></textarea>
+                  </div>
+                  
+                </div>
+
+                <!-- diseño de campos especiales hora y fecha -->
+
+                <!-- ponemos la clase datepicker para que funcione el script -->
+                <div class="form-group form-row">
+                  <label class="col-12 col-form-label col-md-3">Fecha</label>
+                  <div class="col-12 col-md-9">
+                    <div class="input-group">
+                      <input type="date" name="fecha" id="fecha-cita" class="form-control datepicker" 
+                      data-parsley-required
+                      data-parsley-required-message="Este campo no puede estar vacio"
+                      data-parsley-errors-container=".error-fecha-cita">
+                      <!-- data-parsley-errors-container hacemos que el mensaje de error se muestre en algun lugar con una clase -->
+                      
+                      <!-- ponemos en label para poder direccionar a datepicker -->
+                      <label for="fecha-cita" class="input-group-append label-cita">
+                        <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+                    </label>
+                      
+                    </div>
+                    <div class="error-fecha-cita">
+
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="form-group form-row">
+                  <label class="col-12 col-form-label col-md-3">Hora</label>
+                  <div class="col-12 col-md-9">
+                    <div class="input-group">
+                      <input type="text" name="hora" id="hora-cita" class="form-control timepicker" 
+                      data-parsley-required
+                      data-parsley-required-message="Este campo no puede estar vacio"
+                      data-parsley-errors-container=".error-hora-cita">
+
+                      <label for="hora-cita" class="input-group-append label-cita">
+                        <span class="input-group-text"><i class="fas fa-clock"></i></span>
+                      </label>
+                    </div>
+                    <div class="error-hora-cita"></div>
+                    
+                  </div>
+                </div>
+                
+                <div class="form-group form-row">
+                  <div class="col-12 col-md-9 offset-md-3">
+                    <button type="submit" class="btn btn-primary btn-block btn-lg">Enviar</button>
+                  </div>
+                </div>
+
+              </form>
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- Pie de pagina -->
+      <!-- overflow-hidden para que el before q se extiende mas se mantenga dentro del footer -->
+      <footer id="pie-pagina" class="bg-dark text-light overflow-hidden">
+
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12  py-2 columna-inclinada col-md-6 col-xl-5">
+              <!-- nuevo sistema para anidar -->
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-12">
+                  <h2 class="text-white font-weight-bold text-center text-md-left h1">Soporte</h2>
+                </div>
+                  <!-- para que se adapte a su contenido -->
+                <div class="col-auto text-black-50">
+                  <i class="fas fa-notes-medical fa-4x"></i>
+                </div>
+                <div class="col-auto text-black-50 pl-0">
+                  <h3>(+591) 67981983</h3>
+                  <p>Servicio de ayuda disponible 24/7</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-12 py-2 text-center small col-md-6 text-md-right col-xl-7">
+              <ul class="list-unstyled d-inline-flex text-uppercase enlaces-secundario">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Politicas de privacidad</a></li>
+              </ul>
+              <p>©2020. Todos los derechos reservados DEVOP</p>
+            </div>
+          </div>
+        </div>
+
+      </footer>
+
+
+
+
+
+
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- script de swiper -->
+    <script src="js/swiper.min.js"></script>
+    <!-- script de venobox -->
+    <script src="js/venobox.min.js"></script>
+    <!-- script de jarallax -->
+    <script src="js/jarallax.min.js"></script>
+      <!-- picturefill hace que en internet explore entienda las imagenes -->
+    <script src="js/picturefill.min.js"></script>
+    <!-- carga de waypoints de conteo para q se ejecute cuando lo visualicemos -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- script de conteo cuando se hace scroll -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- Carga de "Picker.js" | Crea el selector de fecha y de hora-->
+    <script src="js/pickadate.js/picker.js"></script>
+
+    <!-- Carga de "picker.date.js" | Crea el selector de fecha-->
+    <script src="js/pickadate.js/picker.date.js"></script>
+
+    <!-- Carga de "picker.time.js" | Crea el selector de fecha-->
+    <script src="js/pickadate.js/picker.time.js"></script>
+
+    <!-- script parsley para validar formularios -->
+    <script src="js/parsley.min.js"></script>
+    <script src="js/parsley_es.js"></script>
+
+    <!-- script stickit para navbar fijo -->
+    <script src="js/jquery.stickit.min.js"></script>
+
+    <!-- script page-scrioll-to-id efecto scroll en nuestros enlaces -->
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+
+      <!-- script css_selector crea clases para identificar un dispositivo -->
+    <script src="js/css_browser_selector.js"></script>
+    
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
